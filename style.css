@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #b3bdce;
+}
+.burger {
+  position: fixed;
+  min-width: 250px;
+  min-height: 250px;
+  padding-top: 40px ;
+  padding-bottom: 40px ;
+  background: rgba(51, 64, 83, 0.78521831);
+  left: -254px;
+  transition: all 600ms;
+}
+.burger.active-menu {
+  left: 0px;
+}
+.burger__btn {
+  position: absolute;
+  left: 260px;
+  top: 10px;
+  background-color: rgba(51, 64, 83, 0.78521831);
+  padding: 10px;
+  cursor: pointer;
+}
+.burger__btn:hover {
+  background-color: rgba(20, 20, 20, 0.678);
+}
+.burger__span {
+  display: block;
+  width: 25px;
+  height: 4px;
+  background: #f5deb360;
+  margin: 4px 0;
+}
+.burger__links {
+  list-style-type: none;
+}
+.burger__links li {
+  padding: 5px 0;
+}
+.burger__link {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
